@@ -1,5 +1,6 @@
-@import "tailwindcss"
+@import "tailwindcss";
 
 @theme {
-    --color-primary: #FFFFF
+    --spacing-120: 120px;
+    --container-8xl: 2000px;
 }
