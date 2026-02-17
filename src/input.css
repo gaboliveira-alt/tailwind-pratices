@@ -1,6 +1,1 @@
 @import "tailwindcss";
-
-@theme {
-    --spacing-120: 120px;
-    --container-8xl: 2000px;
-}
