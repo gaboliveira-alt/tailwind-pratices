@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@layer utilities {
+    @keyframes wiggle {
+        0%,
+        100% {
+            transform: rotate(-3d);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+}
+
+.animation-wiggle {
+    animation: wiggle 0.3s ease-in-out infinite;
+}
